@@ -11,10 +11,13 @@ int main()
 
     printf("Tempo de ligacao igual ao 4 digito do meu RU: %i \n", tempoLigacao4Digito);
 
-    int tempoLigacaoSoma = meuRuAluno[2] + meuRuAluno[5];
+    int tempoLigacaoSomaTerceiroSextoDigito = meuRuAluno[2] + meuRuAluno[5];
 
-    printf("Tempo de ligacao igual a soma do terceiro com o sexto digito do meu RU: %i", tempoLigacaoSoma);
+    printf("Tempo de ligacao igual a soma do terceiro com o sexto digito do meu RU: %i \n", tempoLigacaoSomaTerceiroSextoDigito);
 
+    int tempoLigacaoSomaPrimeiroTerceiroDigito = meuRuAluno[0] + meuRuAluno[1];
+
+    printf("Tempo de ligacao igual a soma do terceiro com o sexto digito do meu RU: %i", tempoLigacaoSomaPrimeiroTerceiroDigito);
 
 
 }
